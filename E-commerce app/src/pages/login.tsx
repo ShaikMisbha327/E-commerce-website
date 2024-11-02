@@ -33,8 +33,8 @@ export default function LoginPage() {
   const dispatch = useDispatch();
 
   function onLogin({ email, password }: z.infer<typeof formSchema>) {
-    if (email === "admin@gmail.com" && password === "admin*123") {
-      dispatch(login({ firstName: "Gaurav", lastName: "Sen" }));
+    if (email === "shaikmisbha_jtbb2@jtdfoundation.org" && password === "shaikmisbha@123") {
+      dispatch(login({ firstName: "Misbha", lastName: "Shaik" }));
       navigate("/");
     } else {
       toast.error("Invalid email or password");

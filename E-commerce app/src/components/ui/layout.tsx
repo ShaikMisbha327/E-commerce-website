@@ -147,13 +147,9 @@ export default function Layout() {
         <Outlet />
         <Toaster />
       </main>
-      {/* <footer className="p-4 border-t-2 grid place-items-center">
-        <p>© {new Date().getFullYear()} JTD Store</p>
-      </footer> */}
-
-    <footer className="p-4 border-t-2 grid place-items-center">
+<footer className="p-4 border-t-2 grid place-items-center bg-gray-900 text-white">
     <p>© {new Date().getFullYear()} Created by <strong>Shaik Misbah</strong></p>
 </footer>
-    </section>
+ </section>
   );
 }
